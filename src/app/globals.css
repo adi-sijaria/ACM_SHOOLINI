@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav-menu {
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-menu.open {
+  transform: translateX(0);
+}
+
+.nav-menu.closed {
+  transform: translateX(-100%);
+}
