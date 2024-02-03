@@ -19,7 +19,7 @@ const Navbar = () => {
             <p className="text-black">Services</p>
           </Link>
           <Link href="/contact">
-            <p className="text-black">Contact</p>
+            <a className="text-black">Contact</a>
           </Link>
         </div>
 
