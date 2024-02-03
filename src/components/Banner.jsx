@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const Comp1 = () => {
+const Banner = () => {
   return (
     <div
       className="md:min-h-[94vh] sm:min-h-[70vh] min-h-[30vh]"
