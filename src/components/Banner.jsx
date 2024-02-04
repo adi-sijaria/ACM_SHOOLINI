@@ -4,7 +4,7 @@ import React from "react";
 const Banner = () => {
   return (
     <div
-      className="md:min-h-[94vh] sm:min-h-[70vh] min-h-[30vh]"
+      className="md:h-[84vh] sm:min-h-[70vh] min-h-[30vh]"
       style={{
         backgroundImage: 'url("/assets/images/bg.png")',
         backgroundSize: "100% 100%",
@@ -15,4 +15,4 @@ const Banner = () => {
   );
 };
 
-export default Comp1;
+export default Banner;
