@@ -1,9 +1,11 @@
 import React from "react";
+import 'animate.css/animate.min.css';
 
 const About = () => {
+  
   return (
     <div>
-      <div className="flex flex-row mx-20 my-4">
+      <div className="flex flex-row mx-20 my-4 animate__animated animate__fadeIn animate__slideInLeft">
         <div className="flex-1 -200 p-4 ">
           <h className="text-center text-3xl font-bold ">
             About Shoolini University
@@ -24,7 +26,7 @@ const About = () => {
             India's greatness.
           </p>
         </div>
-        <div className="flex-1 -200 p-4">
+        <div className="flex-1 -200 p-4 ">
           <img
             src="/assets/images/building.png"
             className="mx-auto my-4 h-90 w-150 object-cover "
@@ -32,7 +34,7 @@ const About = () => {
           />
         </div>
       </div>
-      <div className="flex flex-row mx-20 my-4 ">
+      <div className="flex flex-row mx-20 my-4 animate__animated animate__fadeIn animate__slideInRight">
         <div className="flex-1 -200 p-4 ">
           <h className="text-center text-3xl font-bold ">
             About Shoolini University
