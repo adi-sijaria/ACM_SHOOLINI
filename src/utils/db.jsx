@@ -1,4 +1,4 @@
-management_team=[
+export const management_team=[
     {
        
         link:"m1.png",
@@ -35,7 +35,7 @@ management_team=[
 
 ]
 
-operation_team_faculty=[
+export const operation_team_faculty=[
     {
         link:"o1.png",
         name:'Dr. Arvind Sharma',
@@ -53,7 +53,7 @@ operation_team_faculty=[
         email:null
     }
 ]
-operation_team_members=[
+export const operation_team_members=[
     {
         link:'o6.png',
         name:'Parini Jindal',
