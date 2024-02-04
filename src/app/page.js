@@ -9,6 +9,7 @@ export default function Home() {
     <main className="">
       <Navbar/>
       <Banner />
+      <About />
       <Management />
       <OperationTeam />
       <Footer/>
