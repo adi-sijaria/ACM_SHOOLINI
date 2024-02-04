@@ -22,7 +22,7 @@ const OperationTeam = () => {
   }, []);
 
   return (
-    <div className=" pb-5 md:px-10 sm:px-4 px-1">
+    <div id="operation" className=" pb-5 md:px-10 sm:px-4 px-1">
       <div className=" mx-[5%] text-center mt-2 bg-gradient-to-r from-[#87c8ee] to-[#4086e2] text-white font-bold shadow-md md:text-[32px] sm:text-[16px]">
         Operation Team
       </div>
@@ -40,6 +40,7 @@ const OperationTeam = () => {
           modifier: 1,
           slideShadows: true,
         }}
+        initialSlide={1}
         pagination={true}
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper"

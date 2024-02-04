@@ -21,7 +21,7 @@ const Management = () => {
   }, []);
 
   return (
-    <div className=" pb-5 md:px-10 sm:px-4 px-1">
+    <div id="management" className=" pb-5 md:px-10 sm:px-4 px-1">
       <div className=" mx-[5%] text-center mt-2 bg-gradient-to-r from-[#87c8ee] to-[#4086e2] text-white font-bold shadow-md md:text-[32px] sm:text-[16px]">
         Management Team
       </div>
@@ -32,6 +32,7 @@ const Management = () => {
         centeredSlides={true}
         // slidesPerView={"auto"}
         slidesPerView={slidesPerView}
+        initialSlide={1}
         coverflowEffect={{
           rotate: 50,
           stretch: 0,

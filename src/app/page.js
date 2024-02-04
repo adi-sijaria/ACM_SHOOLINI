@@ -4,14 +4,16 @@ import Banner from "@/components/Banner";
 import Management from "@/components/Management";
 import Footer from "@/components/Footer";
 import OperationTeam from "@/components/OperationTeam";
+import Event from "@/components/Event";
 export default function Home() {
   return (
-    <main className="">
+    <main id="main" className="">
       <Navbar/>
       <Banner />
       <About />
       <Management />
       <OperationTeam />
+      <Event />
       <Footer/>
     </main>
   );
