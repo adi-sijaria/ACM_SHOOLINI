@@ -32,7 +32,7 @@ const About = () => {
           />
         </div>
       </div>
-      <div className="flex flex-row mx-20 my-4">
+      <div className="flex flex-row mx-20 my-4 ">
         <div className="flex-1 -200 p-4 ">
           <h className="text-center text-3xl font-bold ">
             About Shoolini University
