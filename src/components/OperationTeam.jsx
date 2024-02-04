@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
-import { management_team } from "@/utils/db";
+import { operation_team_members } from "@/utils/db";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
@@ -8,8 +8,9 @@ import "swiper/css/pagination";
 import "./caurosal.css";
 
 import { EffectCoverflow, Pagination } from "swiper/modules";
+import Link from "next/link";
 
-const Management = () => {
+const OperationTeam = () => {
   const [slidesPerView, setSlidesPerView] = useState(3);
 
   useEffect(() => {
@@ -23,7 +24,7 @@ const Management = () => {
   return (
     <div className=" pb-5 md:px-10 sm:px-4 px-1">
       <div className=" mx-[5%] text-center mt-2 bg-gradient-to-r from-[#87c8ee] to-[#4086e2] text-white font-bold shadow-md md:text-[32px] sm:text-[16px]">
-        Management Team
+        Operation Team
       </div>
       <Swiper
         id="carosal"
@@ -43,16 +44,30 @@ const Management = () => {
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper"
       >
-        {management_team.map((e) => {
+        {operation_team_members.map((e) => {
           return (
             <SwiperSlide>
               <div className=" bg-gradient-to-r from-[#87c8ee] via-white to-[#4086e2] flex flex-col gap-1 p-4 rounded-xl">
                 <img src={`/assets/images/${e.link}`} />
-                <div className=" bg-slate-200 w-full px-10 rounded-xl mt-2">
+                <div className=" bg-slate-200 w-full px-6 rounded-xl mt-2">
                   <h2 className=" font-semibold text-[18px] text-black md:text-[24px]">
-                    {e.p_name}
+                    {e.name}
                   </h2>
-                  <p className=" text-[16px] mt-[] md:text-[22px] ">{e.position}</p>
+                  <p className=" text-[16px] mt-[-1px] md:text-[22px] ">
+                    {e.position}
+                  </p>
+                  <br />
+                  <a href={e.profile_link} target="blank"> 
+                    <p className=" text-[16px]  md:text-[22px] underline ">
+                      Linkedin
+                    </p>
+                    <p className=" text-[16px]  md:text-[22px] ">
+                      {e.contact}
+                    </p>
+                    <p className=" text-[16px]  md:text-[22px] ">
+                      {e.mail}
+                    </p>
+                  </a>
                 </div>
               </div>
             </SwiperSlide>
@@ -107,4 +122,4 @@ const Management = () => {
   );
 };
 
-export default Management;
+export default OperationTeam;
