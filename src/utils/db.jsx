@@ -83,7 +83,7 @@ operation_team_members=[
         name:'Richa',
         position:'Event Coordinator',
         profile_link:'https://www.linkedin.com/in/richa-gandhi-477928237/',
-        contact:'',
+        contact:null,
         mail:'richagandhi2703@gmail.com'
     },
     {
@@ -91,14 +91,14 @@ operation_team_members=[
         name:'Naina Pal',
         position:'Event Organizer',
         profile_link:null,
-        contact:'',
+        contact:null,
         mail:'nainaa142004@gmail.com'
     },
     {
         link:'o12.png',
         name:'Saurabh',
         position:'secretary',
-        profile_link:'',
+        profile_link:'https://www.linkedin.com/in/saurabh-mazumdar-73a1aa279/',
         contact:'+91 9691597098',
         mail:'Saurabhmazumdar8@gmail.com'
         
@@ -107,7 +107,7 @@ operation_team_members=[
         link:'siddharth.png',
         name:'Siddharth',
         position:'Technical Support',
-        profile_link:'https://www.linkedin.com/in/saurabh-mazumdar-73a1aa279/ ',
+        profile_link:'https://www.linkedin.com/in/siddharth-ala-4028a2298/',
         contact:'+91 9392969700',
         mail:'siddharthala035@gmail.com'
        
