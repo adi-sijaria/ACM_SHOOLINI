@@ -5,7 +5,7 @@ const About = () => {
   
   return (
     <div>
-      <div className="flex flex-col md:flex-row lg:mx-20 my-4 animate__animated animate__fadeIn animate__slideInLeft">
+      <div id="about" className="flex flex-col md:flex-row lg:mx-20 my-4 animate__animated animate__fadeIn animate__slideInLeft">
         <div className="flex-1 -200 p-4 ">
           <h className="text-center text-3xl font-bold ">
             About Shoolini University

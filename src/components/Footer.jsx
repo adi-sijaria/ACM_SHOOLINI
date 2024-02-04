@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div>
+    <div id="contact">
       <div className="relative h-50">
         <img
           src="/assets/images/footerback.jpg"
