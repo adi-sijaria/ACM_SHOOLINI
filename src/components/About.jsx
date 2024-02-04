@@ -13,7 +13,7 @@ const About = () => {
           <p className="my-4 leading-7 ">
             Surrounded by leading academicians and professionals, Shoolini
             University, ​established in 2009, is a dynamic, research-focused
-            institution consistently ​ranking among India’s top 100
+            institution consistently ​ranking among India&apos;s top 100
             universities. Situated in Solan, Himachal ​Pradesh, this
             not-for-profit, multi-disciplinary private university follows a
             ​unique research and innovation-led model, driving cutting-edge
